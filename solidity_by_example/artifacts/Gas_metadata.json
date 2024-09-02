@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gasOver",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity_by_example/009_Gas.sol": "Gas"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity_by_example/009_Gas.sol": {
+			"keccak256": "0x636dddbaee4a9ae4ce25eefe1d32968d89fca1d5f4c04a61056e70f466ff3b76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b5befb003aa20f3b635d0e55e07c1d86604a549f1dda03ccf81f14763973961e",
+				"dweb:/ipfs/QmWUbuaoy6KutwBn7WEbb9c7ZFxrcfgwaFyQTPv4jTSneh"
+			]
+		}
+	},
+	"version": 1
+}

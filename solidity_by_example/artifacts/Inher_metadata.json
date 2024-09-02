@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "NameToAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "person",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "recive",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity_by_example/Inherited.sol": "Inher"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity_by_example/Inherited.sol": {
+			"keccak256": "0x93e9237548d912b53c01ec8bfd7c455577467e5320f5573949bfb3040ea091fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://639ce875ba063d42505771ca831903c2681f43059ba38d36489bfe55a3fb2eee",
+				"dweb:/ipfs/QmTiZtX44qnedMLtbuSS971h3eDaHNrSHQbbqczQuSCvti"
+			]
+		},
+		"contracts/solidity_by_example/SimpleStorage.sol": {
+			"keccak256": "0x736d52ef1c8b3d1f47f43f46e08398f3ffca82beb9af05127b4d50b8d2c289a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15e95dd5a1001b14cca338828565ae41fd2722a422588daa8f89900f0cd59ea3",
+				"dweb:/ipfs/QmV9EsbyP8zTKP4Wz5YHNqnG4YHsjsS45fxKrtBBweq6jE"
+			]
+		}
+	},
+	"version": 1
+}

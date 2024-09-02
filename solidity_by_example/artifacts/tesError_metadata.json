@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/solidity_by_example/019_Error.sol": "tesError"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/solidity_by_example/019_Error.sol": {
+			"keccak256": "0x7e78cbc8a96ad5edba223d929cbd02f752e90aff1066e763d6838cc228e90e35",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4bc320c3f183eb69b2f036aec5940f5d388bc248e876704b70ba7bb80adb38ef",
+				"dweb:/ipfs/QmYZmJ23VJbisiVGH2HS7Z5NeZtQAatH9FGnYH5qKy15EY"
+			]
+		}
+	},
+	"version": 1
+}
